@@ -1,0 +1,10 @@
+.side-nav__brand {
+  background: url('custom-logo.svg') no-repeat left center !important;
+  margin-left: 10px;
+}
+.app__content {
+  background-color: #fab6b6;
+}
+.widget {
+  background-color: #fad4d4;
+}
