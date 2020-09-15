@@ -2,12 +2,12 @@ apply plugin: 'java-library-distribution'
 
 task toJar(type: Jar) {
     jar {
-        archiveName = 'my-custom-logo-plugin-2.13.0.jar'
+        archiveName = 'my-custom-logo-plugin-2.13.0'
     }
 
     manifest {
         attributes('Implementation-Title': 'my-custom-logo',
                 'Implementation-Version': '2.13.0')
     }
-    baseName = 'my-custom-logo-plugin-2.13.0.jar'
+    baseName = 'my-custom-logo-plugin-2.13.0'
 }
